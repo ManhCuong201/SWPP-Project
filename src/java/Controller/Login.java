@@ -36,7 +36,6 @@ public class Login extends HttpServlet {
             try {
                 User u = User.getUser(username, password);
                 request.getSession().setAttribute("User", u);
-                return;
             } catch(Exception e) {
                 e.printStackTrace();
             }
