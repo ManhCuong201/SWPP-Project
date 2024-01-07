@@ -1,8 +1,11 @@
+<%-- 
+    Document   : login
+    Created on : Jan 7, 2024, 8:03:12 PM
+    Author     : TGDD
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
     <head>
         <title>Happy Programming</title>
@@ -24,5 +27,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <input type="button" value="Register" />
         </a>
         </form>
+        <% if(session.getAttribute("User") != null) {%>
+        <p>Login successfully</p>
+        <%}%>
     </body>
 </html>
+

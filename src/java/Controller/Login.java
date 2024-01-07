@@ -35,12 +35,13 @@ public class Login extends HttpServlet {
             String password = request.getParameter("password");
             try {
                 User u = User.getUser(username, password);
+                request.getSession().setAttribute("User", u);
+                return;
             } catch(Exception e) {
                 e.printStackTrace();
             }
-            return;
         }
-        request.getRequestDispatcher("login.html").forward(request, response);
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     } 
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

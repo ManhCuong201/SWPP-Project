@@ -36,10 +36,12 @@ public class Register extends HttpServlet {
             String email = request.getParameter("email");
             try {
                 User u = User.register(username, password, email);
+                request.getSession().setAttribute("User", u);
+                response.sendRedirect("login");
+                return;
             } catch(Exception e) {
                 e.printStackTrace();
             }
-            return;
         }
         request.getRequestDispatcher("register.html").forward(request, response);
     } 
