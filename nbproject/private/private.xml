@@ -5,11 +5,17 @@
         <group>
             <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/index.html</file>
             <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Beans/User.java</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Beans/Course.java</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/course.jsp</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/courseCRUD.java</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/Login.java</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/login.jsp</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/courseCRUD.jsp</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/EditCourse.java</file>
+            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/AddCourse.java</file>
             <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/DataConnector/DatabaseUtil.java</file>
             <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/register.html</file>
             <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/Register.java</file>
-            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/src/java/Controller/Login.java</file>
-            <file>file:/D:/Why%20Would%20I%20Made%20This/Java/SWP_Project/web/login.jsp</file>
         </group>
     </open-files>
 </project-private>
