@@ -76,6 +76,7 @@ CREATE TABLE [Skills](
 
 CREATE TABLE [Mentee](
 	[Avatar] nvarchar(255),
+	fullname nvarchar(255),
 	[UserID] int REFERENCES [User]([UserID])
 );
 
@@ -83,6 +84,7 @@ CREATE TABLE [Mentor](
 	[UserID] int REFERENCES [User]([UserID]),
 	[Avatar] nvarchar(255),
 	[Description] nvarchar(255),
+	fullname nvarchar(255),
 	[CV] nvarchar(255),
 	[Achivement] nvarchar(255)
 );
